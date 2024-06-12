@@ -41,6 +41,10 @@ export const parameterOptions: OptionGroup = {
                         value: "gpt-4",
                     },
                     {
+                        label: "GPT 4o",
+                        value: "gpt-4o",
+                    },
+                    {
                         label: "GPT 4 32k (requires invite)",
                         value: "gpt-4-32k",
                     },
