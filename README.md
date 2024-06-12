@@ -47,6 +47,16 @@ To run on your own device, you can use Docker:
 docker run -v $(pwd)/data:/app/data -p 3000:3000 ghcr.io/cogentapps/chat-with-gpt:release
 ```
 
+From source:
+
+```
+# Build the Docker image
+docker build -t chat-with-gpt .
+
+# Run the Docker image
+docker run -p 3000:3000 chat-with-gpt
+```
+
 Then navigate to http://localhost:3000 to view the app.
 
 ### Store your API keys on the server
